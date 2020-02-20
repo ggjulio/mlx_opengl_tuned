@@ -19,8 +19,9 @@ int     is_key_press(int key)
 {
     if (key == A_KEY)
        printf("key 'A' pressed\n");
+ }
  
- mlx_hook(g_app.win_ptr, KEYPRESS, NOEVENTMASK, is_key_press, NULL);
+mlx_hook(g_app.win_ptr, KEYPRESS, NOEVENTMASK, is_key_press, NULL);
  ```
  
  ## Default mlx functions :
