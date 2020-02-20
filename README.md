@@ -1,13 +1,13 @@
 # Modified version of mlx.
 
 ## Default mlx events :
-  __KEYPRESS__ = raise event when a key is press .  
-  __KEYRELEASE__ = raise event when a key is released .  
+  __KEYPRESS__      = raise event when a key is press .  
+  __KEYRELEASE__    = raise event when a key is released .  
   __DESTROYNOTIFY__ = raise event when the window's red cross is press .     
 
 ## Events added :
-  __FOCUSIN__ = raise event when the window has focus .   
-  __FOCUSOUT__ =  raise event when the window lose focus .   
+  __FOCUSIN__          = raise event when the window has focus .   
+  __FOCUSOUT__         =  raise event when the window lose focus .   
   __CONFIGURENOTIFY__  = raise event when the window has been resized.   
  
 All events above and keys numbers __are defined in x11.h__
