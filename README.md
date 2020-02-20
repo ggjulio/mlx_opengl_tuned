@@ -8,7 +8,7 @@
 ## Events added :
   __FOCUSIN__ = raise event when the window has focus .   
   __FOCUSOUT__ =  raise event when the window lose focus .   
-  __CONFIGURENOTIFY__  = raise event when window has been resized.   
+  __CONFIGURENOTIFY__  = raise event when the window has been resized.   
  
 All events above and keys numbers __are defined in x11.h__
  
