@@ -1,11 +1,11 @@
-# A modified version of mlx.
+## A modified version of mlx.
 
-## Default mlx events :
+### Default mlx events :
   __KEYPRESS__      = raise event when a key is press .  
   __KEYRELEASE__    = raise event when a key is released .  
   __DESTROYNOTIFY__ = raise event when the window's red cross is press .     
 
-## Events added :
+### Events added :
   __FOCUSIN__          = raise event when the window has focus .   
   __FOCUSOUT__         =  raise event when the window lose focus .   
   __CONFIGURENOTIFY__  = raise event when the window has been resized.   
@@ -24,7 +24,7 @@ int     is_key_press(int key)
 mlx_hook(g_app.win_ptr, KEYPRESS, NOEVENTMASK, is_key_press, NULL);
  ```
  
- ## Default mlx functions :
+ ### Default mlx functions :
  ```c
 // Basic stuff
 void		*mlx_init();
@@ -75,7 +75,7 @@ int		mlx_do_key_autorepeaton(void *mlx_ptr);
  
  
  
- ## Functions added :
+ ### Functions added :
 ```c
    int     mlx_window_get_size(void *win_ptr, int *width, int *height);
    int     mlx_window_set_min_size(void *win_ptr, int width, int height);
