@@ -1,4 +1,4 @@
-# Modified version of mlx.
+# A modified version of mlx.
 
 ## Default mlx events :
   __KEYPRESS__      = raise event when a key is press .  
