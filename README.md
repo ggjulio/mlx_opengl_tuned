@@ -1,4 +1,7 @@
-## A modified version of mlx.
+## A modified version of mlx OpenGL (Native OSX).
+
+#### Ps: This version doesn't work under linux. 
+
 
 ### Default mlx events :
   __KEYPRESS__      = raise event when a key is press .  
